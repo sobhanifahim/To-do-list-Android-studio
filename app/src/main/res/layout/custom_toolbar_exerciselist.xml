@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background"
+    app:popupTheme="@style/AppTheme"
+    android:id="@+id/toolbarCustom_E"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/bmi"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/bmi"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/toolbar"
+        android:text="Exercise list"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="@font/ceviche_one"
+        />
+
+</androidx.appcompat.widget.Toolbar>

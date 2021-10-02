@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".setReminder">
+
+    <include layout="@layout/custom_toolbar_setreminder"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Notification"
+        android:fontFamily="@font/ceviche_one"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"/>
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="300dp"
+        android:layout_height="342dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/blue"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/set"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="set"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button2"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="cancel"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button2"
+            android:layout_marginLeft="30dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

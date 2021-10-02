@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <include layout="@layout/custom_toolbar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:text="select your task"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/ceviche_one" />
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:text="Your TO-DO"
+        android:textColor="@color/red"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="190dp"
+        android:text="Exercise list"
+        android:textColor="@color/red"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="50dp"
+        android:text="calculate    bills"
+        android:textColor="@color/red"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="190dp"
+        android:text="set daily          Reminder"
+        android:textColor="@color/red"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/btn_five"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="50dp"
+        android:text="foot step counter"
+        android:textColor="@color/red"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/btn_six"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="190dp"
+        android:text="stop watch"
+        android:textColor="@color/red"
+        android:background="@drawable/custom_button"/>
+    </RelativeLayout>

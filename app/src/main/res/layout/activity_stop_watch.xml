@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".stopWatch">
+
+    <include layout="@layout/custom_layout_stopreminder"/>
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/c"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="90dp"
+        android:text="click to start stop watch"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/ceviche_one" />
+
+    <Chronometer
+        android:id="@+id/choronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format="00"
+        android:textSize="60dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/custom_button2"
+        android:text="start"
+        android:textColor="@color/white"
+        android:onClick="startChronometer"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/custom_button2"
+        android:text="stop"
+        android:textColor="@color/white"
+        android:onClick="pauseChronometer"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/custom_button2"
+        android:text="reset"
+        android:textColor="@color/white"
+        android:onClick="resetChronometer"/>
+
+</RelativeLayout>

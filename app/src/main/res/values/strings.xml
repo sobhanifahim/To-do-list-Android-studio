@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">TO-DO APP</string>
+    <string name="steps">totalsteps</string>
+</resources>

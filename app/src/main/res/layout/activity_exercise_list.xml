@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseList">
+
+    <include layout="@layout/custom_toolbar_exerciselist"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="90dp"
+        android:text="choose your workout"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/ceviche_one" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/arm_workout"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/custom_button2"
+            android:text="Arm Workout"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/chest_workout"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button2"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="5dp"
+            android:text="Chest workout"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/leg_workout"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button2"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="5dp"
+            android:text="leg workout"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+</RelativeLayout>

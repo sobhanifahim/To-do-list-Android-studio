@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Arm_workout">
+    <include layout="@layout/custom_toolbar_legworkout"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take 30 days challenge"
+        android:fontFamily="@font/ceviche_one"
+        android:textSize="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/blue"
+        />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/leg1"
+        />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/leg2" />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginTop="340dp"
+        android:src="@drawable/leg3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start with 15 reps each workout daily and weekly increase by 10 reps."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"/>
+
+
+
+</RelativeLayout>

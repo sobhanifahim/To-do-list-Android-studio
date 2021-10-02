@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".footStep">
+
+    <include layout="@layout/custom_toolbar_footstepcounter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:text="make a step start counting"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/ceviche_one" />
+
+         <ProgressBar
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/progress_bar"
+             style="?android:attr/progressBarStyleHorizontal"
+             android:textAlignment="center"
+             android:gravity="center_horizontal"
+             android:background="@drawable/circle_shape"
+             android:progressDrawable="@drawable/circle_progressbar"
+             />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/steptaken"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="40sp"/>
+    <Button
+        android:id="@+id/toz"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="130dp"
+        android:text="reset"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button2"/>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculateBills">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColorHint="#000000"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="÷"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button4"/>
+
+    <include layout="@layout/custom_toolbar_calculatebills"/>
+
+    <Button
+        android:id="@+id/_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_marginTop="380dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button4"/>
+
+    <Button
+        android:id="@+id/_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_marginTop="440dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@color/white"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/white"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/custom_button4"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/custom_button4"/>
+
+    <Button
+        android:id="@+id/equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button4"/>
+
+    <Button
+        android:id="@+id/_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textColor="@color/white"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_button3"/>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button2"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="300dp"
+        android:text="C"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

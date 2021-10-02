@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="?attr/actionBarSize"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background="@drawable/gradient_background"
+app:popupTheme="@style/AppTheme"
+android:id="@+id/toolbarCustom"
+    >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/toolbar"
+    android:text="Arm Workout"
+    android:textSize="40dp"
+    android:textColor="@color/white"
+    android:layout_marginLeft="100dp"
+    android:fontFamily="@font/ceviche_one"
+    />
+
+</androidx.appcompat.widget.Toolbar>
